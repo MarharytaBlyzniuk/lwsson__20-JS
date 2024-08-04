@@ -174,4 +174,3 @@ console.log(mainFunc(10, 30, cbRandom));
 console.log(mainFunc(2, 5, cbPow));
 console.log(mainFunc(2, 5, cbAdd));
 console.log(mainFunc(2, 5, 'not a func'));
-
