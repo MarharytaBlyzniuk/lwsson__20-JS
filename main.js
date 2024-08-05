@@ -1,13 +1,15 @@
 /* 1.1 */
-let firstName = 'Маргарита';
-let lastName = 'Близнюк';
-let Age = 32;
-let userObj = firstName + ' ' + lastName + ' ' + Age;
+const userObj = {
+    firstName:'Blyzniuk',
+    lastName: 'Margarita',
+    age: 32,
+};
 console.log(userObj)
 
-/* 1.2 */
-let userObj2 = `Мене звати ${lastName} ${firstName} і мені ${Age} роки.`;
-console.log(userObj2)
+function greet(firstName, lastName, age) {
+    console.log('My name' + ' '+  firstName + ' ' + lastName + '.' + ' ' + 'I am' + ' ' + age);
+}
+greet("Veronika", "Blyzniuk", 9)
 
 
 /* 2 */
